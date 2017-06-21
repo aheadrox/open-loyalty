@@ -64,6 +64,7 @@ class SettingsFormType extends AbstractType
                         'PLN' => 'pln',
                         'USD' => 'usd',
                         'EUR' => 'eur',
+                        'РУБ' => 'rub',
                     ],
                     'constraints' => [new NotBlank()],
                 ])

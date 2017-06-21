@@ -21,6 +21,10 @@ export default class DataService {
             {
                 name: 'EUR',
                 code: 'eur'
+            },
+            {
+                name: 'РУБ',
+                code: 'rub'
             }
         ];
         this.config = window.OpenLoyaltyConfig || {};
